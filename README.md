@@ -6,6 +6,7 @@
 
 **把 Bandizip 6.x 的右键菜单带进 Windows 11 新版右键菜单。**
 
+！本项目和README完全使用DeepSeek构建
 BandiZip11 是一个开源的小工具。它不修改 Bandizip 的任何二进制文件，而是通过一个带包身份的 MSIX 包注册原生 `IExplorerCommand`，在 Windows 11 的一级右键菜单里增加一个 **Bandizip** 子菜单，再调用 Bandizip 自带的命令行完成解压、压缩、测试等操作。
 
 > 适用环境：Windows 11 21H2（Build 22000）及以上 + Bandizip 6.x（已在 **6.29.0.1** 上验证）。
@@ -465,6 +466,7 @@ Bandizip 6.29 的 `shell_TestArchive` 默认是 `0`。在 Bandizip 设置里开�
 - 思路参考：[Wings-Fantasy/7-Zip_Context_menu_plugin](https://github.com/Wings-Fantasy/7-Zip_Context_menu_plugin)（Apache-2.0）。本项目没有复用其代码，只借鉴了“MSIX + IExplorerCommand + 扁平化二级菜单”的产品思路。
 - 机制参考：[Microsoft：Add a File Explorer context menu command to a packaged desktop app](https://learn.microsoft.com/en-us/windows/apps/desktop/modernize/integrate-packaged-app-with-file-explorer)。
 - Bandizip 是 Bandisoft 的商标；本项目与 Bandisoft 无关联。
+- DeepSeek 是 杭州深度求索人工智能基础技术研究有限公司 的商标，本项目与该公司无关联。
 
 ---
 
